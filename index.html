@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css" >
+    <title>survey-form</title>
+</head>
+<body>
+    <h1 id="title">KIU Polytechnic Institute Survey Form </h1>
+    <p id="description"> Thank you for taking time to help us to improve our educational system </p>
+    <form id="survey-form">
+        <div>
+            <label id="name-label" for="name" > Name</label><br>
+              <input id="name" type="text" name="name" placeholder="Enter your name" required>
+        </div>
+        <div>
+            <label id="email-label" for="email"> Email</label><br>
+              <input id="email" type="email" name="mail adress" placeholder="Enter your email" required>
+        </div>
+        <div>
+            <label id="number-label" for="number">Age</label><br>
+            <input id="number" type="number" name="age" min="16" max="75" placeholder="Age" >
+        </div>
+        <div>
+            <label for="selection">Choose your degree</label><br>
+            <select name="dropdown" id="selection">
+                <option disabled selected value>choose your current degree</option>
+                <option value="advanced"> Advanced Diploma </option>
+                <option value="bachelor">Bachelor's degree</option>
+                <option value="master">Master's degree</option>
+                <option value="phd"> PhD </option>
+            </select><br><br><br><br><br>
+        </div>
+        <p>In which country or region are you coming from ? </p>
+        <label for="rwanda"> Rwanda </label>
+           <input class="inp-radio" type="radio" name="country" id="rwanda" value="rwanda"><br>
+        <label for="eac">East Africa Community</label>
+           <input class="inp-radio" type="radio" name="country" id="eac" value="eac"><br>
+        <label for="other"> Other Countries </label>
+           <input class="inp-radio" type="radio" name="country" id="other" value="other"><br>
+
+        <p>In which faculty you would like us to make improvements in the future ?</p>
+            <input id="elec-checkbox" type="checkbox" name="elt" value="elelectrical">
+               <label for="elec-checkbox"> Electrical Engineering </label><br>
+            <input id="telem-checkbox" type="checkbox" name="ett" value="electronic">
+               <label for="telem-checkbox"> Electronic and Telecommunication Engineering</label><br>
+            <input id="soft-checkbox" type="checkbox" name="cs" value="software">
+               <label for="soft-checkbox"> Software Enginnering </label><br>
+            <input id="mec-checkbox" type="checkbox" name="men" value="mechanical">
+               <label for="mec-checkbox"> Mechanical Engineering </label><br>
+            <input id="civ-checkbox" type="checkbox" name="civen" value="civil">
+               <label for="civ-checkbox"> Civil Engineering </label><br>
+            <input id="auto-checkbox" type="checkbox" name="auto" value="automotive">
+               <label for="auto-checkbox"> Automotive Engineering </label><br><br>
+        <p> Leave your review and tell us what you would like us to change in our educational system </p>       
+               <textarea name="text" id="comment" cols="105" rows="8"></textarea><br><br>
+        <button type="button" id="submit"> Submit </button>
+    </form>
+</body>   
+</html>
