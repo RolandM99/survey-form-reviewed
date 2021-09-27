@@ -1,0 +1,109 @@
+body {
+  text-align: center;
+  font-size: 1.2em;
+  font-family: sans-serif;
+  margin: auto;
+  background-color: darkgray;
+}
+
+#survey-form {
+  padding: 40px;
+  background: cornflowerblue;
+  margin: 12px 255px;
+  text-align: left;
+  height: 100%;
+  width: auto;
+}
+
+@media (max-width: 768px) and (min-width: 450px) {
+  #survey-form {
+    padding: 40px;
+    background: cornflowerblue;
+    margin: 12px 20px;
+    text-align: left;
+    height: 100%;
+    width: auto;
+  }
+
+  #comment {
+    background-color: rgb(245, 235, 235);
+    font-family: sans-serif;
+    width: 110%;
+    margin-left: -3px;
+  }
+}
+
+::placeholder {
+  font-size: 1.2em;
+}
+
+div {
+  display: grid;
+  margin-top: 6px;
+  margin-bottom: 15px;
+}
+
+#name {
+  padding: 10px;
+  background-color: rgb(245, 235, 235);
+  border-radius: 5px;
+  font-size: 0.8em;
+  border: solid 1px;
+}
+
+#email {
+  padding: 10px;
+  background-color: rgb(245, 235, 235);
+  border-radius: 5px;
+  font-size: 0.8em;
+  border: solid 1px;
+}
+
+#number {
+  padding: 10px;
+  background-color: rgb(245, 235, 235);
+  border-radius: 5px;
+  font-size: 0.8em;
+  border: solid 1px;
+}
+
+#selection {
+  font-size: 1em;
+  background-color: rgb(245, 235, 235);
+  padding: 10px;
+  border-radius: 5px;
+  border: solid 1px;
+}
+
+.inp-radio .inp-checkbox {
+  display: inline-block;
+  margin-right: 0.625rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+}
+
+#submit {
+  display: block;
+  background-color: rgb(218, 224, 230);
+  width: 100%;
+  font-size: 1em;
+  padding: 10px;
+  border-radius: 5px;
+  border: solid 1px;
+}
+
+#submit:hover {
+  background-color: rgb(36, 150, 106);
+}
+
+#comment {
+  background-color: rgb(245, 235, 235);
+  font-family: sans-serif;
+  width: 100%;
+}
+
+footer {
+  font-size: 1.2em;
+  font-family: monospace;
+  margin-bottom: 6px;
+}
