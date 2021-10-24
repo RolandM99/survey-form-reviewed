@@ -2,7 +2,7 @@
 
 # Survey form reviewed
 
-> This project has been done to familiarize with code review. 
+> This project has been done to be familiarize with code review. 
   - How to give feedback
   - How to proceed while a code review
 
